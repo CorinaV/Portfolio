@@ -1,160 +1,190 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: inherit;
+}
 /* Navigation */
 .navigation {
-    background: transparent;
-    border: none;
-  }
+  background: transparent;
+  border: none;
+}
+
 .logo {
-    padding-left: 140px;
-    padding-top: 15px;
-  }
+  padding-left: 140px;
+  padding-top: 15px;
+}
+
 .navbar-right li {
-    font-size: 18px;
-  }
+  font-size: 18px;
+}
+
 .navbar-right {
-    padding-right: 100px;
-  }
+  padding-right: 100px;
+}
 /* Content */
 body {
-   margin:0;
-   padding:0;
-   background: url(../images/lightpaperfibers.png);
-   font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
+  background: url(../images/lightpaperfibers.png);
+  font-family: "Roboto Slab", serif;
 }
+
 .profile-image {
-    border-radius: 80px;
-    width: 130px;
+  border-radius: 80px;
+  width: 130px;
 }
+
 .social-media a {
-    font-size: 20px;
-    margin-left: 10px;
-    text-decoration: none;
-    color: #8a070a;
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #8a070a;
 }
+
 a:hover {
-    color:#eef05d;
+  color: #eef05d;
 }
+
 .arrow {
-    margin-left:115px;
-    margin-top: -50px;
+  margin-left: 115px;
+  margin-top: -50px;
 }
+
 .hr-style {
-   border-top: 1px dashed #a4a4a4;
-   width: 100%;
-   margin-top: 40px;
+  border-top: 1px dashed #a4a4a4;
+  width: 100%;
+  margin-top: 40px;
 }
+
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1170px;
-    margin: 0 auto;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+  margin: 0 auto;
+}
+
 .portfolio-heading {
-    width: 100%;
-    padding: 40px 0 15px 0;
-    }
+  width: 100%;
+  padding: 40px 0 15px 0;
+}
+
 .sample-work {
   float: left;
   margin-right: 10px;
   width: calc((100% - 20px)/3);
   text-align: center;
 }
+
 .last-sample {
   margin-right: 0;
 }
+
 .sample-image {
-  width:100%;
+  width: 100%;
   border-radius: 5px;
 }
+
 .about-me {
   width: 100%;
   padding: 40px 0 15px 0;
 }
+
 .about-div {
   width: 50%;
 }
+
 .row-game {
   margin: 0 auto;
 }
 /* Game page */
 .circle {
-    width: 200px;
-    height: 200px;
-    border-radius: 150px;
-    background-color:#8a070a;
-    margin: 0 auto;
-  }
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  background-color: #8a070a;
+  margin: 0 auto;
+}
 /* Footer */
 .footer-div {
-    width: 100%;
-    text-align: center;
-    margin-top: 40px;
-    padding: 15px 0 15px 0;
-    background-color: #a4a4a4;
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px 0 15px 0;
+  background-color: #a4a4a4;
 }
+
 .social-media-lower a {
-    font-size: 20px;
-    margin-left: 10px;
-    text-decoration: none;
-    color: #8a070a;
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #8a070a;
 }
 /* Media queries */
-@media screen and (max-width: 1200px){
-   .flex-container {
-        width: 970px;
-  }
-   .social-media, .arrow {
-       display:none;
-  }
-}
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1200px) {
   .flex-container {
-      width: 100%;
-      padding: 0 10px;
+    width: 970px;
   }
-   .sample-work {
-      float: left;
-      margin-right: 10px;
-      width: calc((100% - 20px)/3);
-      text-align: center;
-  }
-  .last-sample {
-     margin-right: 0;
+
+  .social-media, .arrow {
+    display: none;
   }
 }
-@media screen and (max-width: 768px){
-  .flex-container{
-      width: 100%;
+
+@media screen and (max-width: 992px) {
+  .flex-container {
+    width: 100%;
+    padding: 0 10px;
   }
-   .sample-work {
-      width: 100%;
-      margin-right: 0;
+
+  .sample-work {
+    float: left;
+    margin-right: 10px;
+    width: calc((100% - 20px)/3);
+    text-align: center;
   }
-   .logo {
-     padding: 0;
+
+  .last-sample {
+    margin-right: 0;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container {
+    width: 100%;
+  }
+
+  .sample-work {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .logo {
+    padding: 0;
+  }
+
   .about-div, .about-me {
     font-size: 12px;
     padding-left: 5px;
   }
 }
+
 @media screen and (max-width: 362px) {
-    .opinion-div {
-      width: 100%;
+  .opinion-div {
+    width: 100%;
   }
-    .fact-div {
-      width: 100%;
+
+  .fact-div {
+    width: 100%;
   }
-    .flex-container{
-      width: 100%;
+
+  .flex-container {
+    width: 100%;
   }
-    .sample-work {
-      width: 100%;
-      margin-right: 0;
+
+  .sample-work {
+    width: 100%;
+    margin-right: 0;
   }
 }

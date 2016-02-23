@@ -1,110 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-      <link href="css/main.css" rel="stylesheet">
-      <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet'>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-      <title>Portfolio-Corina</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-default navigation">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <img src="images/logo.png" class="img-responsive logo" alt="Udacity logo">
-           </div>
-            <div class="collapse navbar-collapse" id="menu">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">About me</a></li>
-                <li><a href="game.html" target="_blank">Play a game</a></li>
-              </ul>
-            </div><!--navbar-collapse -->
-          </div><!--container-fluid -->
-        </nav>
-      </header>
-      <div class="container">
-          <div class="row">
-            <div class="col-md-6 profile">
-                <!--Below: an already-made gif just for fun-->
-                 <img src="images/hello-animation.gif" alt="Hello text">
-                 <img class="profile-image" src="images/Corina.png" alt="Profile picture">
-                 <img class="arrow hidden-xs hidden-md" src="images/arrow.png" alt="Red arrow">
-                 <h1>I'm Corina</h1>
-                 <h2>a new front-end developer on the block</h2>
-                 <br>
-                 <a class="btn btn-success" href="mailto:hello@emotionaltech.co" target="_blank">Contact, contact, is anyone there?</a>
-             </div>
-             <div class="col-md-6 text-right">
-               <span class="social-media hidden-xs hidden-md">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="css/main.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <title>Portfolio-Corina</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img src="images/logo.png" class="img-responsive logo" alt="Udacity logo">
+        </div>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About me</a>
+            </li>
+            <li><a href="game.html" target="_blank">Play a game</a>
+            </li>
+          </ul>
+        </div>
+        <!--navbar-collapse -->
+      </div>
+      <!--container-fluid -->
+    </nav>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 profile">
+        <!--Below: an already-made gif just for fun-->
+        <img src="images/hello-animation.gif" alt="Hello text">
+        <img class="profile-image" src="images/Corina.png" alt="Profile picture">
+        <img class="arrow hidden-xs hidden-md" src="images/arrow.png" alt="Red arrow">
+        <h1>I'm Corina</h1>
+        <h2>a new front-end developer on the block</h2>
+        <br>
+        <a class="btn btn-success" href="mailto:hello@emotionaltech.co" target="_blank">Contact, contact, is anyone there?</a>
+      </div>
+      <div class="col-md-6 text-right">
+        <span class="social-media hidden-xs hidden-md">
                    <a href="https://twitter.com/CorinaVladut" target="_blank"><i class="fa fa-twitter"></i></a>
                    <a href="https://es.linkedin.com/in/corinavladut" target="_blank"><i class="fa fa-linkedin"></i></a>
                    <a href="https://github.com/CorinaV" target="_blank"><i class="fa fa-github-alt"></i></a>
                    <a href="mailto:hello@emotionaltech.co" target="_blank"><i class="fa fa-envelope"></i></a>
                </span>
-               <img class="img-responsive" src="images/building.png" alt="Red building drawing">
-             </div>
-           </div><!--row-->
-      </div> <!--container-->
-<!--Tryout out flexbox-->
-    <section class="flex-container">
-        <div class="portfolio-heading">
-             <h2>Some of my adventures</h2>
-        </div>
-        <div class="sample-work">
-           <img class="sample-image" src="images/website-640_medium.jpg" alt="Laptop"
-                srcset="images/website-320_small.jpg 320w, images/website-640_medium.jpg 640w"
-                sizes="(max-width: 768px) 100vw, 33.3vw">
-          <a href="http://www.emotionaltech.co" target="_blank"><h4>Working on my website</h4></a>
-        </div>
-        <div class="sample-work">
-           <img class="sample-image" src="images/game-320_small.jpg" alt="Chess game"
-                srcset="images/game-320_small.jpg 320w, images/game-640_medium.jpg 640w"
-                sizes="(max-width: 768px) 100vw, 33.3vw">
-           <a href="game.html" target="_blank"><h4>Learning JS through games</h4></a>
-         </div>
-         <div class="sample-work last-sample">
-             <img class="sample-image" src="images/blog-320_small.jpg" alt="A notebook and laptop"
-                  srcset="images/blog-320_small.jpg 320w, images/blog-640_medium.jpg 640w"
-                  sizes="(max-width: 768px) 100vw, 33.3vw">
-             <a href="http://emotionaltech.co/blog/" target="_blank"><h4>Writing about UX</h4></a>
-         </div>
-         <hr class="hr-style hidden-xs hidden-md">
-   </section>
-   <section class="flex-container">
-        <div class="about-me" id="about">
-             <h2>Who is this cool developer?</h2>
-        </div>
-        <div class="about-div">
-           <h4><b>What <em>evil</em> people say</b></h4>
-           <p>Oh my, it's a girl trying to learn code</p>
-           <p>She can't code, girls are bad at math</p>
-           <p>She is just messing around</p>
-        </div>
-        <div class="about-div">
-            <h4><b>Me in a nutshell</b></h4>
-            <p>Psychologist by training who loves tech</p>
-            <p>Develops websites with love and care</p>
-            <p>User-experience super enthusiast<p>
-        </div>
-    </section>
-    <footer class="footer-div social-media-lower">
-          <a href="https://twitter.com/CorinaVladut" target="_blank"><i class="fa fa-twitter"></i></a>
-          <a href="https://es.linkedin.com/in/corinavladut" target="_blank"><i class="fa fa-linkedin"></i></a>
-          <a href="https://github.com/CorinaV" target="_blank"><i class="fa fa-github-alt"></i></a>
-          <a href="mailto:hello@emotionaltech.co" target="_blank"><i class="fa fa-envelope"></i></a>
-          <p>© CorinaVladut 2016</p>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  </body>
+        <img class="img-responsive" src="images/building.png" alt="Red building drawing">
+      </div>
+    </div>
+    <!--row-->
+  </div>
+  <!--container-->
+  <!--Tryout out flexbox-->
+  <section class="flex-container">
+    <div class="portfolio-heading">
+      <h2>Some of my adventures</h2>
+    </div>
+    <div class="sample-work">
+      <img class="sample-image" src="images/website-640_medium.jpg" alt="Laptop" srcset="images/website-320_small.jpg 320w, images/website-640_medium.jpg 640w" sizes="(max-width: 768px) 100vw, 33.3vw">
+      <a href="http://www.emotionaltech.co" target="_blank"><h4>Working on my website</h4></a>
+    </div>
+    <div class="sample-work">
+      <img class="sample-image" src="images/game-320_small.jpg" alt="Chess game" srcset="images/game-320_small.jpg 320w, images/game-640_medium.jpg 640w" sizes="(max-width: 768px) 100vw, 33.3vw">
+      <a href="game.html" target="_blank"><h4>Learning JS through games</h4></a>
+    </div>
+    <div class="sample-work last-sample">
+      <img class="sample-image" src="images/blog-320_small.jpg" alt="A notebook and laptop" srcset="images/blog-320_small.jpg 320w, images/blog-640_medium.jpg 640w" sizes="(max-width: 768px) 100vw, 33.3vw">
+      <a href="http://emotionaltech.co/blog/" target="_blank"><h4>Writing about UX</h4></a>
+    </div>
+    <hr class="hr-style hidden-xs hidden-md">
+  </section>
+  <section class="flex-container">
+    <div class="about-me" id="about">
+      <h2>Who is this cool developer?</h2>
+    </div>
+    <div class="about-div">
+      <h4><b>What <em>evil</em> people say</b></h4>
+      <p>Oh my, it's a girl trying to learn code</p>
+      <p>She can't code, girls are bad at math</p>
+      <p>She is just messing around</p>
+    </div>
+    <div class="about-div">
+      <h4><b>Me in a nutshell</b></h4>
+      <p>Psychologist by training who loves tech</p>
+      <p>Develops websites with love and care</p>
+      <p>User-experience super enthusiast
+        <p>
+    </div>
+  </section>
+  <footer class="footer-div social-media-lower">
+    <a href="https://twitter.com/CorinaVladut" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://es.linkedin.com/in/corinavladut" target="_blank"><i class="fa fa-linkedin"></i></a>
+    <a href="https://github.com/CorinaV" target="_blank"><i class="fa fa-github-alt"></i></a>
+    <a href="mailto:hello@emotionaltech.co" target="_blank"><i class="fa fa-envelope"></i></a>
+    <p>© CorinaVladut 2016</p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
 </html>
