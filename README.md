@@ -1,2 +1,2 @@
-# Portfolio
-Sample portfolio build with `html` `css` `js`
+# CorinaV.github.io
+Sample portfolio website hosted on [github pages] (http://corinav.github.io/)
